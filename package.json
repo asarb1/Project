@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "vanzarereparatiicutiiviteze",
+  "version": "1.0.0",
+  "description": "Site pentru vanzarea si reconditionarea cutiilor de viteza",
+  "main": "server.js",
+  "author": "Sarb Andreea-Roxana",
+  "license": "ISC"
+}
