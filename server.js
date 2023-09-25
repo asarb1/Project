@@ -13,6 +13,22 @@ app.get("/", function(req, res){
   res.render("home")
 })
 
+app.get("/despre", function(req, res){
+  res.render("despre")
+})
+
+app.get("/servicii", function(req, res){
+  res.render("servicii")
+})
+
+app.get("/magazin", function(req, res){
+  res.render("magazin")
+})
+
+app.get("/contact", function(req, res){
+  res.render("contact")
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
