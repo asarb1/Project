@@ -29,6 +29,14 @@ app.get("/contact", function(req, res){
   res.render("contact")
 })
 
+app.get("/testimonial", function(req, res){
+  res.render("testimonial")
+})
+
+app.get("/feedbackform", function(req, res){
+  res.render("feedbackform")
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
